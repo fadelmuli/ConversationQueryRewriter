@@ -2,7 +2,7 @@
 import json
 import copy
 
-from cqr.utils import NUM_FOLD
+from utils import NUM_FOLD
 
 with open('data/evaluation_topics_v1.0.json', 'r') as fin:
     raw_data = json.load(fin)
